@@ -6,12 +6,12 @@ react-router-dom => npm i react-router-dom
 
 @material-ui/core
 @material-ui/icons 
-npm i --save-dev @material-ui/core @material-ui/icons
+=> npm i --save-dev @material-ui/core @material-ui/icons
 
 express
 cors
 nodemailer
-npm i express cors nodemailer
+=> npm i express cors nodemailer
 
 react-google-recaptcha => npm i react-google-recaptcha
 
