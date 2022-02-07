@@ -1,0 +1,102 @@
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #F89824;
+    position: sticky;
+  }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-logo{
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 25px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    color: #efefef;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+  
+  .nav > .nav-links > a:hover {
+    color: rgb(62, 103, 177);
+    cursor: pointer;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:900px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 80px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 20px;
+      border-top: 4px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #d19e60;
+      height: auto;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 80px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(60vh - 50px);
+      overflow-y: auto;
+    }
+  }

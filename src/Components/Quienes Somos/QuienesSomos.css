@@ -1,0 +1,24 @@
+.quienessomos {
+    background-color: whitesmoke;
+    font-family: "Roboto";
+}
+
+.texto {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 350%;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+.parrafo {
+    text-align: justify;
+    font-size: 200%;
+    background-color: white;
+    border: 40px solid white;
+}
