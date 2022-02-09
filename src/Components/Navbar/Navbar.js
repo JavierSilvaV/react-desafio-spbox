@@ -48,7 +48,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Quienes somos
+                Quiénes somos
               </Link>
               <Link
                 className="active"
