@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+import logo from "../../Assets/logo-spbox.png";
 import { Facebook } from '@material-ui/icons';
 import { Instagram } from '@material-ui/icons';
 import { LinkedIn } from '@material-ui/icons';
@@ -11,7 +12,7 @@ function Footer() {
     <footer className="footer-distributed">
     <div className="footer-left">
       <img
-    src={"http://spboxweb.azurewebsites.net/images/logo-spbox.png"}
+    src={logo}
     className="footer-logo"
     alt="Logo"/>
 

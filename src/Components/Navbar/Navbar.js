@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import logo from "../../Assets/logo-spbox.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -15,7 +16,7 @@ export default class Navbar extends Component {
   <div className="nav-header">
     <div className="nav-title">
     <img
-    src={"http://spboxweb.azurewebsites.net/images/logo-spbox.png"}
+    src={logo}
     className="nav-logo"
     alt="Logo"
     onClick={this.scrollToTop}/>
